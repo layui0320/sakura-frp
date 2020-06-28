@@ -1,16 +1,16 @@
-image: layui0320/frps:latest
+image: layui0320/sakura-frps:latest
 tags: ["0.28.2"]
 manifests:
-  - image: layui0320amd64/frps:latest
+  - image: layui0320/amd64-sakura-frps:latest
     platform:
       architecture: amd64
       os: linux
-  - image: layui0320arm32v7/frps:latest
+  - image: layui0320/arm32v7-sakura-frps:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: layui0320arm64v8/frps:latest
+  - image: layui0320/arm64v8-sakura-frps:latest
     platform:
       architecture: arm64
       os: linux
