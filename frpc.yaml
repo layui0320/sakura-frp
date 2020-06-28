@@ -1,16 +1,16 @@
-image: snowdreamtech/frpc:latest
-tags: ["0.33.0"]
+image: layui0320/frpc:latest
+tags: ["0.28.2"]
 manifests:
-  - image: snowdreamtechamd64/frpc:latest
+  - image: layui0320amd64/frpc:latest
     platform:
       architecture: amd64
       os: linux
-  - image: snowdreamtecharm32v7/frpc:latest
+  - image: layui0320arm32v7/frpc:latest
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: snowdreamtecharm64v8/frpc:latest
+  - image: layui0320arm64v8/frpc:latest
     platform:
       architecture: arm64
       os: linux
